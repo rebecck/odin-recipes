@@ -22,6 +22,23 @@ img {
     margin-right: auto;
 }
 
-.left {
-    left-margin: 100px;
+.top {
+    text-align: center;
 }
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
