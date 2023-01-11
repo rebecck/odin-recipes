@@ -1,0 +1,27 @@
+/*This style cheet will be for all web pages*/
+
+.pizza,
+.toast,
+.bwings,
+body {
+    background-color: rgba(0,0,0,0.8);
+    background-image: url(https://images.unsplash.com/photo-1599458140258-ace48a8ffe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 100%;
+    background-blend-mode: multiply;
+    height: 100vh;
+
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    left-margin: 100px;
+}
