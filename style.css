@@ -63,7 +63,20 @@ img {
     margin-left: 30px;
 }
 
-.ul-homepage li,
+.ul-homepage li a,
 .home-link {
     font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+    background-color: rgba(70, 33, 33, 0.6);
+    padding: 10px;
+    border-radius: 10%;
 }
+
+.ul-homepage li a:hover,
+.home-link:hover {
+    color: rgb(203, 178, 131);
+    background-color: rgba(70, 33, 33, 0.9);
+}
+
+
