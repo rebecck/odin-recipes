@@ -16,6 +16,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.pizza h1,
+.toast h1,
+.bwings h1,
+body h1 {
+    margin: 20px 20px 20px 30px;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -42,3 +49,21 @@ img {
     margin-left: 50px;
 }
 
+.ul-homepage {
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+.ul-homepage li {
+    float: left; 
+    padding-right: 50px;
+}
+
+.home-link {
+    margin-left: 30px;
+}
+
+.ul-homepage li,
+.home-link {
+    font-size: 20px;
+}
